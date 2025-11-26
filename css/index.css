@@ -1,0 +1,29 @@
+/* SMALL SCREEN */
+@media screen and (max-width: 1000px) {
+.BigScreen{ 
+ display: none;
+}
+.content{
+    width: 90%;
+}
+.info-table {
+    width: 100%;
+}
+
+.move-table {
+    width: 100%;
+    left: 0rem;
+}
+img{
+    max-width: 90%;
+}
+}
+
+/* MAX SCREEN */
+@media screen and (min-width:1001px) {
+.SmallScreen{ 
+ display:none;
+}
+
+
+}

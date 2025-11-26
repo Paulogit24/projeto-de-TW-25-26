@@ -1,0 +1,158 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #242545;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+a{
+    color: white;
+}
+main{
+    width: 100%;
+}
+.content{
+    position: relative;
+    width: 70%;
+    left: 3%;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.content h2{
+    border-bottom: 5px solid #ffffff;
+}
+.base-text {
+    color: white;
+}
+
+.base-info{
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: #1b1b38;
+    padding: 1rem;
+    padding-bottom: auto;
+    border-style: solid;
+    border-top: 5px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width:5px ;
+    border-top-color: #ffffff;
+    color: white;
+    height: 10fr;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+a.nav-item {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-weight: bold;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+.info-table {
+
+    width: 20rem;
+    color: white;
+     
+}
+
+.BigScreen .info-table {
+    position: absolute;
+    top: 5rem;
+    right: 2rem;  
+    
+}
+.info-table tr {
+    margin: 20px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #ffffff;
+    padding-bottom: 2rem;
+    background-color: #2e2e5c;
+    text-align: center;
+}
+
+#top {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.table-img {
+    position: relative;
+    background-color: transparent;
+    max-width: none;
+    max-height: none;
+}
+
+
+
+h3{
+    border-bottom: 3px solid #ffffff;
+}
+
+.invisible{
+    display: none;
+}
+
+img{
+    max-height: 300px;
+    height: auto;
+    background-color: white;
+}
+
+.guide{
+    width: 200px;
+    border-width: 2px;
+    border:solid #ffffff;
+}
+/*
+Source - https://stackoverflow.com/a
+Posted by Evik Ghazarian, modified by community. See post 'Timeline' for change history
+Retrieved 2025-11-24, License - CC BY-SA 4.0
+*/
+
+/* SMALL SCREEN */
+@media screen and (max-width: 1000px) {
+.BigScreen{ 
+ display: none;
+}
+.content{
+    width: 90%;
+}
+.info-table {
+    width: 100%;
+}
+
+.move-table {
+    width: 100%;
+    left: 0rem;
+}
+img{
+    max-width: 90%;
+}
+}
+
+/* MAX SCREEN */
+@media screen and (min-width:1001px) {
+.SmallScreen{ 
+ display:none;
+}
+
+
+}
+
