@@ -105,6 +105,10 @@ h3{
     border-bottom: 3px solid #ffffff;
 }
 
+li{
+    padding: 5px;
+}
+
 .invisible{
     display: none;
 }
@@ -119,6 +123,10 @@ img{
     width: 200px;
     border-width: 2px;
     border:solid #ffffff;
+}
+
+footer{
+    min-height: 3rem;
 }
 /*
 Source - https://stackoverflow.com/a
@@ -136,6 +144,11 @@ Retrieved 2025-11-24, License - CC BY-SA 4.0
 }
 .info-table {
     width: 100%;
+    border: solid 5px white;
+}
+
+.info-table tr{
+    border:solid 5px white;
 }
 
 .move-table {

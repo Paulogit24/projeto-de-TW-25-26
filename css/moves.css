@@ -40,6 +40,8 @@ img{
 .SmallScreen{ 
  display:none;
 }
-
+.mach{
+    min-height: 300px;
+}
 
 }

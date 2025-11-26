@@ -1,0 +1,16 @@
+/* SMALL SCREEN */
+@media screen and (max-width: 1000px) {
+.BigScreen{ 
+ display: none;
+}
+
+}
+
+/* MAX SCREEN */
+@media screen and (min-width:1001px) {
+.SmallScreen{ 
+ display:none;
+}
+
+
+}
