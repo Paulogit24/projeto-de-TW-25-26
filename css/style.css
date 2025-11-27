@@ -5,6 +5,7 @@ body{
     margin: 0;
     padding: 0;
     color: white;
+    /*background-color: #191a2f;*/
 }
 
 a{
@@ -51,6 +52,7 @@ main{
 	align-items: center;
     text-align: center;
     width: 100%;
+    
 }
 
 a.nav-item {
@@ -82,7 +84,7 @@ a.nav-item {
     border-style: solid;
     border-color: #ffffff;
     padding-bottom: 2rem;
-    background-color: #2e2e5c;
+    background-color: #1b1b38;
     text-align: center;
 }
 
@@ -123,6 +125,10 @@ img{
     width: 200px;
     border-width: 2px;
     border:solid #ffffff;
+}
+
+.guide h3{
+    padding-left: 1rem;
 }
 
 footer{
